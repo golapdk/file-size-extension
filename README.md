@@ -19,3 +19,7 @@ Search for **Show File Size** in the Extensions Marketplace, or install manually
 ```bash
 vsce install show-file-size
 # file-size-extension
+
+```bash
+vsce package
+#build command
