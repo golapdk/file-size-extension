@@ -11,7 +11,7 @@
   },
   "homepage": "https://github.com/golapdk/file-size-extension#readme",
   "keywords": ["file size", "vs code", "visual studio code", "status bar", "show file size", "developer tools"],
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "golap-dev", 
   "icon": "icon.png",
   "license": "MIT",
