@@ -1,4 +1,4 @@
-# Show File Size
+# Show File Size [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A simple VS Code extension that displays the size of the currently open file in the status bar.
 
