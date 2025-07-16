@@ -1,0 +1,41 @@
+{
+  "name": "show-file-size",
+  "displayName": "Show File Size",
+  "description": "Show the file size in the status bar",
+  "keywords": ["file size", "vs code", "visual studio code", "status bar", "show file size", "developer tools"],
+  "version": "0.0.3",
+  "publisher": "golap-dev",
+  "icon": "icon.png",
+  "author": {
+    "name": "Golap Hazarika",
+    "email": "golapyd@gmail.com"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": []
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/vscode": "^1.80.0",
+    "eslint": "^8.0.0",
+    "typescript": "^5.0.0",
+    "vscode-test": "^1.6.0"
+  }
+}
